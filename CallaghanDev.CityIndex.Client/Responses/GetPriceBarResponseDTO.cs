@@ -23,34 +23,5 @@ namespace CallaghanDev.CityIndex.Client.Responses
         public PriceBarDTO PartialPriceBar { get; set; }
     }
 
-    /// <summary>
-    /// The details of a specific price bar, useful for plotting candlestick charts.
-    /// </summary>
-    public class PriceBarDTO
-    {
-        /// <summary>
-        /// The starting date for the price bar interval, in WCF date format.
-        /// </summary>
-        public string BarDate { get; set; }
-
-        /// <summary>
-        /// The price at the start (open) of the price bar interval.
-        /// </summary>
-        public decimal Open { get; set; }
-
-        /// <summary>
-        /// The highest price occurring during the interval of the price bar.
-        /// </summary>
-        public decimal High { get; set; }
-
-        /// <summary>
-        /// The lowest price occurring during the interval of the price bar.
-        /// </summary>
-        public decimal Low { get; set; }
-
-        /// <summary>
-        /// The price at the end (close) of the price bar interval.
-        /// </summary>
-        public decimal Close { get; set; }
-    }
+   
 }

@@ -56,7 +56,6 @@ namespace CallaghanDev.CityIndex.Client.Responses
         /// </summary>
         public int Status { get; set; }
     }
-
     /// <summary>
     /// Represents a single price bar (OHLC data).
     /// </summary>
@@ -66,6 +65,7 @@ namespace CallaghanDev.CityIndex.Client.Responses
         /// The timestamp of the price bar.
         /// </summary>
         public DateTime Timestamp { get; set; }
+        public string BarDate { get; set; }
 
         /// <summary>
         /// The open price.
